@@ -24,7 +24,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router basename='/newsapp'>
         <NavBar/>
         <LoadingBar
         color='#f11946'
